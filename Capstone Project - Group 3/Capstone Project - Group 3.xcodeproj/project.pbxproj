@@ -1,0 +1,687 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA4741992B0C64A10060457F /* StreamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4741982B0C64A10060457F /* StreamViewController.swift */; };
+		DA5B408D2B155D02004253B0 /* Nuke in Frameworks */ = {isa = PBXBuildFile; productRef = DA5B408C2B155D02004253B0 /* Nuke */; };
+		DA5B408F2B1581F0004253B0 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5B408E2B1581F0004253B0 /* DetailViewController.swift */; };
+		DA606F992B14F4B1008CC0EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA606F932B14F4B1008CC0EB /* Assets.xcassets */; };
+		DA606F9C2B14F4B1008CC0EB /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA606F962B14F4B1008CC0EB /* SearchViewController.swift */; };
+		DA606F9D2B14F4B1008CC0EB /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA606F972B14F4B1008CC0EB /* User.swift */; };
+		DA606F9E2B14F4B1008CC0EB /* BooksListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA606F982B14F4B1008CC0EB /* BooksListViewController.swift */; };
+		DA606FA12B14F4C4008CC0EB /* ParseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = DA606FA02B14F4C4008CC0EB /* ParseSwift */; };
+		DAC8BE802B125EA400B034C8 /* LibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC8BE7F2B125EA400B034C8 /* LibraryViewController.swift */; };
+		DAC8BE822B12784E00B034C8 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC8BE812B12784E00B034C8 /* Book.swift */; };
+		DAC8BE862B127DC000B034C8 /* BookCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC8BE852B127DC000B034C8 /* BookCell.swift */; };
+		DACB34DA2AFFE7B500F03FB1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACB34D92AFFE7B500F03FB1 /* AppDelegate.swift */; };
+		DACB34DC2AFFE7B500F03FB1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACB34DB2AFFE7B500F03FB1 /* SceneDelegate.swift */; };
+		DACB34DE2AFFE7B500F03FB1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACB34DD2AFFE7B500F03FB1 /* ViewController.swift */; };
+		DACB34E12AFFE7B500F03FB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DACB34DF2AFFE7B500F03FB1 /* Main.storyboard */; };
+		DACB34E32AFFE7B600F03FB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DACB34E22AFFE7B600F03FB1 /* Assets.xcassets */; };
+		DACB34F12AFFE7B700F03FB1 /* Capstone_Project___Group_3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACB34F02AFFE7B700F03FB1 /* Capstone_Project___Group_3Tests.swift */; };
+		DACB34FB2AFFE7B700F03FB1 /* Capstone_Project___Group_3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACB34FA2AFFE7B700F03FB1 /* Capstone_Project___Group_3UITests.swift */; };
+		DACB34FD2AFFE7B700F03FB1 /* Capstone_Project___Group_3UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACB34FC2AFFE7B700F03FB1 /* Capstone_Project___Group_3UITestsLaunchTests.swift */; };
+		DACB350A2AFFECC100F03FB1 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACB35092AFFECC100F03FB1 /* ProfileViewController.swift */; };
+		DAD2BEFA2B166597008EA523 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD2BEF92B166597008EA523 /* LoginViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DACB34ED2AFFE7B700F03FB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DACB34CE2AFFE7B500F03FB1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DACB34D52AFFE7B500F03FB1;
+			remoteInfo = "Capstone Project - Group 3";
+		};
+		DACB34F72AFFE7B700F03FB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DACB34CE2AFFE7B500F03FB1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DACB34D52AFFE7B500F03FB1;
+			remoteInfo = "Capstone Project - Group 3";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DA4741982B0C64A10060457F /* StreamViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamViewController.swift; sourceTree = "<group>"; };
+		DA5B408E2B1581F0004253B0 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		DA606F932B14F4B1008CC0EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DA606F962B14F4B1008CC0EB /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		DA606F972B14F4B1008CC0EB /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		DA606F982B14F4B1008CC0EB /* BooksListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BooksListViewController.swift; sourceTree = "<group>"; };
+		DAC8BE7F2B125EA400B034C8 /* LibraryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryViewController.swift; sourceTree = "<group>"; };
+		DAC8BE812B12784E00B034C8 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		DAC8BE852B127DC000B034C8 /* BookCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookCell.swift; sourceTree = "<group>"; };
+		DACB34D62AFFE7B500F03FB1 /* Capstone Project - Group 3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Capstone Project - Group 3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DACB34D92AFFE7B500F03FB1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DACB34DB2AFFE7B500F03FB1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DACB34DD2AFFE7B500F03FB1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DACB34E02AFFE7B500F03FB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DACB34E22AFFE7B600F03FB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DACB34E52AFFE7B600F03FB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DACB34E72AFFE7B600F03FB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DACB34EC2AFFE7B700F03FB1 /* Capstone Project - Group 3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Capstone Project - Group 3Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DACB34F02AFFE7B700F03FB1 /* Capstone_Project___Group_3Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Capstone_Project___Group_3Tests.swift"; sourceTree = "<group>"; };
+		DACB34F62AFFE7B700F03FB1 /* Capstone Project - Group 3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Capstone Project - Group 3UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DACB34FA2AFFE7B700F03FB1 /* Capstone_Project___Group_3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Capstone_Project___Group_3UITests.swift"; sourceTree = "<group>"; };
+		DACB34FC2AFFE7B700F03FB1 /* Capstone_Project___Group_3UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Capstone_Project___Group_3UITestsLaunchTests.swift"; sourceTree = "<group>"; };
+		DACB35092AFFECC100F03FB1 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		DAD2BEF92B166597008EA523 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DACB34D32AFFE7B500F03FB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA606FA12B14F4C4008CC0EB /* ParseSwift in Frameworks */,
+				DA5B408D2B155D02004253B0 /* Nuke in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DACB34E92AFFE7B700F03FB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DACB34F32AFFE7B700F03FB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DACB34CD2AFFE7B500F03FB1 = {
+			isa = PBXGroup;
+			children = (
+				DACB34D82AFFE7B500F03FB1 /* Capstone Project - Group 3 */,
+				DACB34EF2AFFE7B700F03FB1 /* Capstone Project - Group 3Tests */,
+				DACB34F92AFFE7B700F03FB1 /* Capstone Project - Group 3UITests */,
+				DACB34D72AFFE7B500F03FB1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DACB34D72AFFE7B500F03FB1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DACB34D62AFFE7B500F03FB1 /* Capstone Project - Group 3.app */,
+				DACB34EC2AFFE7B700F03FB1 /* Capstone Project - Group 3Tests.xctest */,
+				DACB34F62AFFE7B700F03FB1 /* Capstone Project - Group 3UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DACB34D82AFFE7B500F03FB1 /* Capstone Project - Group 3 */ = {
+			isa = PBXGroup;
+			children = (
+				DA606F932B14F4B1008CC0EB /* Assets.xcassets */,
+				DA606F982B14F4B1008CC0EB /* BooksListViewController.swift */,
+				DA606F962B14F4B1008CC0EB /* SearchViewController.swift */,
+				DA606F972B14F4B1008CC0EB /* User.swift */,
+				DACB34D92AFFE7B500F03FB1 /* AppDelegate.swift */,
+				DACB34DB2AFFE7B500F03FB1 /* SceneDelegate.swift */,
+				DACB34DD2AFFE7B500F03FB1 /* ViewController.swift */,
+				DACB34DF2AFFE7B500F03FB1 /* Main.storyboard */,
+				DA5B408E2B1581F0004253B0 /* DetailViewController.swift */,
+				DA4741982B0C64A10060457F /* StreamViewController.swift */,
+				DACB35092AFFECC100F03FB1 /* ProfileViewController.swift */,
+				DACB34E22AFFE7B600F03FB1 /* Assets.xcassets */,
+				DACB34E42AFFE7B600F03FB1 /* LaunchScreen.storyboard */,
+				DACB34E72AFFE7B600F03FB1 /* Info.plist */,
+				DAC8BE7F2B125EA400B034C8 /* LibraryViewController.swift */,
+				DAC8BE812B12784E00B034C8 /* Book.swift */,
+				DAC8BE852B127DC000B034C8 /* BookCell.swift */,
+				DAD2BEF92B166597008EA523 /* LoginViewController.swift */,
+			);
+			path = "Capstone Project - Group 3";
+			sourceTree = "<group>";
+		};
+		DACB34EF2AFFE7B700F03FB1 /* Capstone Project - Group 3Tests */ = {
+			isa = PBXGroup;
+			children = (
+				DACB34F02AFFE7B700F03FB1 /* Capstone_Project___Group_3Tests.swift */,
+			);
+			path = "Capstone Project - Group 3Tests";
+			sourceTree = "<group>";
+		};
+		DACB34F92AFFE7B700F03FB1 /* Capstone Project - Group 3UITests */ = {
+			isa = PBXGroup;
+			children = (
+				DACB34FA2AFFE7B700F03FB1 /* Capstone_Project___Group_3UITests.swift */,
+				DACB34FC2AFFE7B700F03FB1 /* Capstone_Project___Group_3UITestsLaunchTests.swift */,
+			);
+			path = "Capstone Project - Group 3UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DACB34D52AFFE7B500F03FB1 /* Capstone Project - Group 3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DACB35002AFFE7B700F03FB1 /* Build configuration list for PBXNativeTarget "Capstone Project - Group 3" */;
+			buildPhases = (
+				DACB34D22AFFE7B500F03FB1 /* Sources */,
+				DACB34D32AFFE7B500F03FB1 /* Frameworks */,
+				DACB34D42AFFE7B500F03FB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Capstone Project - Group 3";
+			packageProductDependencies = (
+				DA606FA02B14F4C4008CC0EB /* ParseSwift */,
+				DA5B408C2B155D02004253B0 /* Nuke */,
+			);
+			productName = "Capstone Project - Group 3";
+			productReference = DACB34D62AFFE7B500F03FB1 /* Capstone Project - Group 3.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DACB34EB2AFFE7B700F03FB1 /* Capstone Project - Group 3Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DACB35032AFFE7B700F03FB1 /* Build configuration list for PBXNativeTarget "Capstone Project - Group 3Tests" */;
+			buildPhases = (
+				DACB34E82AFFE7B700F03FB1 /* Sources */,
+				DACB34E92AFFE7B700F03FB1 /* Frameworks */,
+				DACB34EA2AFFE7B700F03FB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DACB34EE2AFFE7B700F03FB1 /* PBXTargetDependency */,
+			);
+			name = "Capstone Project - Group 3Tests";
+			productName = "Capstone Project - Group 3Tests";
+			productReference = DACB34EC2AFFE7B700F03FB1 /* Capstone Project - Group 3Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DACB34F52AFFE7B700F03FB1 /* Capstone Project - Group 3UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DACB35062AFFE7B700F03FB1 /* Build configuration list for PBXNativeTarget "Capstone Project - Group 3UITests" */;
+			buildPhases = (
+				DACB34F22AFFE7B700F03FB1 /* Sources */,
+				DACB34F32AFFE7B700F03FB1 /* Frameworks */,
+				DACB34F42AFFE7B700F03FB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DACB34F82AFFE7B700F03FB1 /* PBXTargetDependency */,
+			);
+			name = "Capstone Project - Group 3UITests";
+			productName = "Capstone Project - Group 3UITests";
+			productReference = DACB34F62AFFE7B700F03FB1 /* Capstone Project - Group 3UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DACB34CE2AFFE7B500F03FB1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					DACB34D52AFFE7B500F03FB1 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					DACB34EB2AFFE7B700F03FB1 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = DACB34D52AFFE7B500F03FB1;
+					};
+					DACB34F52AFFE7B700F03FB1 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = DACB34D52AFFE7B500F03FB1;
+					};
+				};
+			};
+			buildConfigurationList = DACB34D12AFFE7B500F03FB1 /* Build configuration list for PBXProject "Capstone Project - Group 3" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DACB34CD2AFFE7B500F03FB1;
+			packageReferences = (
+				DA606F9F2B14F4C4008CC0EB /* XCRemoteSwiftPackageReference "Parse-Swift" */,
+				DA5B408B2B155D02004253B0 /* XCRemoteSwiftPackageReference "Nuke" */,
+			);
+			productRefGroup = DACB34D72AFFE7B500F03FB1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DACB34D52AFFE7B500F03FB1 /* Capstone Project - Group 3 */,
+				DACB34EB2AFFE7B700F03FB1 /* Capstone Project - Group 3Tests */,
+				DACB34F52AFFE7B700F03FB1 /* Capstone Project - Group 3UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DACB34D42AFFE7B500F03FB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DACB34E32AFFE7B600F03FB1 /* Assets.xcassets in Resources */,
+				DA606F992B14F4B1008CC0EB /* Assets.xcassets in Resources */,
+				DACB34E12AFFE7B500F03FB1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DACB34EA2AFFE7B700F03FB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DACB34F42AFFE7B700F03FB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DACB34D22AFFE7B500F03FB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA4741992B0C64A10060457F /* StreamViewController.swift in Sources */,
+				DACB34DE2AFFE7B500F03FB1 /* ViewController.swift in Sources */,
+				DA606F9E2B14F4B1008CC0EB /* BooksListViewController.swift in Sources */,
+				DA5B408F2B1581F0004253B0 /* DetailViewController.swift in Sources */,
+				DAC8BE822B12784E00B034C8 /* Book.swift in Sources */,
+				DA606F9C2B14F4B1008CC0EB /* SearchViewController.swift in Sources */,
+				DACB34DA2AFFE7B500F03FB1 /* AppDelegate.swift in Sources */,
+				DAC8BE862B127DC000B034C8 /* BookCell.swift in Sources */,
+				DACB350A2AFFECC100F03FB1 /* ProfileViewController.swift in Sources */,
+				DAC8BE802B125EA400B034C8 /* LibraryViewController.swift in Sources */,
+				DA606F9D2B14F4B1008CC0EB /* User.swift in Sources */,
+				DAD2BEFA2B166597008EA523 /* LoginViewController.swift in Sources */,
+				DACB34DC2AFFE7B500F03FB1 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DACB34E82AFFE7B700F03FB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DACB34F12AFFE7B700F03FB1 /* Capstone_Project___Group_3Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DACB34F22AFFE7B700F03FB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DACB34FB2AFFE7B700F03FB1 /* Capstone_Project___Group_3UITests.swift in Sources */,
+				DACB34FD2AFFE7B700F03FB1 /* Capstone_Project___Group_3UITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DACB34EE2AFFE7B700F03FB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DACB34D52AFFE7B500F03FB1 /* Capstone Project - Group 3 */;
+			targetProxy = DACB34ED2AFFE7B700F03FB1 /* PBXContainerItemProxy */;
+		};
+		DACB34F82AFFE7B700F03FB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DACB34D52AFFE7B500F03FB1 /* Capstone Project - Group 3 */;
+			targetProxy = DACB34F72AFFE7B700F03FB1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DACB34DF2AFFE7B500F03FB1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DACB34E02AFFE7B500F03FB1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DACB34E42AFFE7B600F03FB1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DACB34E52AFFE7B600F03FB1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DACB34FE2AFFE7B700F03FB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DACB34FF2AFFE7B700F03FB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DACB35012AFFE7B700F03FB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Capstone Project - Group 3/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "eadam019.Capstone-Project---Group-3";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DACB35022AFFE7B700F03FB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Capstone Project - Group 3/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "eadam019.Capstone-Project---Group-3";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DACB35042AFFE7B700F03FB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "eadam019.Capstone-Project---Group-3Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Capstone Project - Group 3.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Capstone Project - Group 3";
+			};
+			name = Debug;
+		};
+		DACB35052AFFE7B700F03FB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "eadam019.Capstone-Project---Group-3Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Capstone Project - Group 3.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Capstone Project - Group 3";
+			};
+			name = Release;
+		};
+		DACB35072AFFE7B700F03FB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "eadam019.Capstone-Project---Group-3UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Capstone Project - Group 3";
+			};
+			name = Debug;
+		};
+		DACB35082AFFE7B700F03FB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "eadam019.Capstone-Project---Group-3UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Capstone Project - Group 3";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DACB34D12AFFE7B500F03FB1 /* Build configuration list for PBXProject "Capstone Project - Group 3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DACB34FE2AFFE7B700F03FB1 /* Debug */,
+				DACB34FF2AFFE7B700F03FB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DACB35002AFFE7B700F03FB1 /* Build configuration list for PBXNativeTarget "Capstone Project - Group 3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DACB35012AFFE7B700F03FB1 /* Debug */,
+				DACB35022AFFE7B700F03FB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DACB35032AFFE7B700F03FB1 /* Build configuration list for PBXNativeTarget "Capstone Project - Group 3Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DACB35042AFFE7B700F03FB1 /* Debug */,
+				DACB35052AFFE7B700F03FB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DACB35062AFFE7B700F03FB1 /* Build configuration list for PBXNativeTarget "Capstone Project - Group 3UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DACB35072AFFE7B700F03FB1 /* Debug */,
+				DACB35082AFFE7B700F03FB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DA5B408B2B155D02004253B0 /* XCRemoteSwiftPackageReference "Nuke" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kean/Nuke.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.6.1;
+			};
+		};
+		DA606F9F2B14F4C4008CC0EB /* XCRemoteSwiftPackageReference "Parse-Swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/parse-community/Parse-Swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DA5B408C2B155D02004253B0 /* Nuke */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DA5B408B2B155D02004253B0 /* XCRemoteSwiftPackageReference "Nuke" */;
+			productName = Nuke;
+		};
+		DA606FA02B14F4C4008CC0EB /* ParseSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DA606F9F2B14F4C4008CC0EB /* XCRemoteSwiftPackageReference "Parse-Swift" */;
+			productName = ParseSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = DACB34CE2AFFE7B500F03FB1 /* Project object */;
+}
